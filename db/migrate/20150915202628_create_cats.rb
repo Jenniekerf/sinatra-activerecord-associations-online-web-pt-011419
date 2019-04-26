@@ -1,4 +1,4 @@
-class CreateCats < ActiveRecord::Migration[4.2.5]
+class CreateCats < ActiveRecord::Migration
   def up
     create_table :cats do |t|
       t.string :name
